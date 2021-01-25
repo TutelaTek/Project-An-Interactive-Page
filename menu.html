@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="menu.css">
+    <script type="text/javascript" src="main.js">
+
+    </script>
+    <title>Phil's Diner</title>
+    <link rel = "icon" href =
+"images/Phil's_Diner_Logo.png"
+        type = "image/x-icon">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <img src="images/Phil's_Diner_Logo.png" alt="Phil's Diner Logo">
+      </div>
+      <ul class="navigation">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="location.html">Location</a></li>
+        <li><a href="Contact.html">Contact Us</a></li>
+      </ul>
+
+    </nav>
+
+    <div class="card-holder">
+
+        <div class="items" onclick="hamburger()">
+          <img src="images/Hamburger.jpg" alt="Hamburger" class="items-picture">
+          <div class="items-info">
+          <h3>Hamburger</h3>
+          <p class="description">Angus beef, lettuce, tomato, onions, pickles, mayo</p>
+          <div class="price">$10.99</div>
+          </div>
+        </div>
+        <div  class="items" onclick="salad()">
+
+          <img src="images/salad.jpg" alt="Salad" class="items-picture">
+          <div class="items-info">
+          <h3>Salad</h3>
+          <p class="description">lettuce, tomato, cucumber, olives, salad dressing</p>
+          <div class="price">$10.99</div>
+          </div>
+        </div>
+        <div class="items" onclick="pancakes()">
+          <img src="images/pancakes.jfif" alt="Pancakes" class="items-picture">
+          <div class="items-info">
+          <h3>Pancakes</h3>
+          <p class="description">three butter milk pancakes, maple syrup, blue berries</p>
+          <div class="price">$10.99</div>
+          </div>
+        </div>
+        <div class="items" onclick="waffles()">
+          <img src="images/waffles.jpg" alt="Waffles" class="items-picture">
+          <div class="items-info">
+          <h3>Waffles</h3>
+          <p class="description">Three belgian waffles, maple syrup, banana slices, strawberry slices</p>
+          <div class="price">$10.99</div>
+          </div>
+        </div>
+        <div class="items" onclick="ribs()">
+          <img src="images/ribs.jpg" alt="Ribs" class="items-picture">
+          <div class="items-info">
+          <h3>Ribs</h3>
+          <p class="description">five pound classic cut ribs, wild west barbaque sauce, onions</p>
+          <div class="price">$10.99</div>
+          </div>
+        </div>
+        <div class="items" onclick="sandwitch()">
+          <img src="images/chicken-sandwitch.jpg" alt="Chicken Sandwitch" class="items-picture">
+          <div class="items-info">
+          <h3>Chicken Sandwitch</h3>
+          <p class="description">batterd chicken, lettuce, tomato, pickles, toasted bun</p>
+          <div class="price">$10.99</div>
+          </div>
+        </div>
+        <div class="items" onclick="hashbrowns()">
+          <img src="images/hashbrowns.jpg" alt="Hashbrowns" class="items-picture">
+          <div class="items-info">
+          <h3>Hashbrowns</h3>
+          <p class="description">Fresh shredded potatoes, pepper, salt, cayenne pepper</p>
+          <div class="price">$10.99</div>
+          </div>
+        </div>
+        <div class="items" onclick="steak()">
+          <img src="images/steak.jpg" alt="Steak" class="items-picture">
+          <div class="items-info">
+          <h3>Steak</h3>
+          <p class="description">Grilled angus beef, wild west barbaque sauce, onions</p>
+          <div class="price">$10.99</div>
+          </div>
+        </div>
+
+    </div>
+    <div class="popup" id="popup">
+      <div class="popup-header">
+        <div  class="popup-title" id="popup-t" >Salad</div>
+          <div  class="close-button" onclick="closebutton()">&times;</div>
+
+      </div>
+      <p class="popup-text" id="popup-message" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+         do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco la
+          boris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+          dolor in reprehenderit in voluptate velit esse cillum dolore eu
+          fugiat nulla pariatur. Excepteur sint occaecat cupidatat non pr
+          oident, sunt in culpa qui officia deserunt mollit anim id est la
+          borum.</p>
+    </div>
+    <div id="popup-back"></div>
+    <footer>
+      
+    </footer>
+
+  </body>
+</html>

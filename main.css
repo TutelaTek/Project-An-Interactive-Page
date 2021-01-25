@@ -1,0 +1,200 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+nav {
+  background-color: #041E54;
+}
+img{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+nav ul {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+nav ul li{
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  display: inline;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin:20px auto 20px auto;
+
+}
+ a:visited, a:link, a:active
+{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+  color: #e8b200;
+}
+* {
+  font-family: 'Roboto', sans-serif;
+}
+body {
+  background-image: url("images/pattern.jpg");
+  background-repeat: repeat-x repeat-y;
+}
+.content{
+  display: block;
+  flex-wrap: wrap;
+  margin-right: auto;
+  margin-left: auto;
+  width: 80%;
+  background-color: white;
+  padding: 20px;
+
+}
+.card-holder{
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: auto;
+  margin-left: auto;
+  width: 80%;
+  background-color: white;
+  padding: 20px;
+
+}
+h1{
+  font-family: 'Roboto', sans-serif;
+  font-size: 35px;
+}
+.diner {
+  width:500px;
+  margin: 20px, auto, 20px, auto;
+}
+
+
+
+.items {
+	cursor: pointer;
+	position: relative;
+  font-family: 'Roboto', sans-serif;
+  display: block;
+  border-radius: 20px;
+  border-width: 5px;
+  border-color: black;
+  background-color: #EBEDF2;
+  width: 200px;
+  height: 350px;
+  margin:20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	cursor: pointer;
+
+}
+.card-holder :hover {
+  transform: scale(1.05);
+	z-index: 1;
+}
+.items :hover {
+  transform: none;
+}
+
+.items img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  display: block;
+  width:200px;
+}
+.items-info {
+  padding: 10px;
+}
+.items h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+
+}
+.description {
+  font-family: 'Roboto', sans-serif;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  overflow-wrap: break-word;
+}
+.price {
+  align: left;
+  color:#e8b200;
+}
+
+
+
+
+
+
+
+
+
+
+
+footer ul{
+  display: block;
+  padding: 20px;
+}
+
+footer ul li {
+  color: white;
+  padding-top:5px;
+}
+footer ul li:hover{
+  color: #e8b200;
+}
+
+
+footer {
+  font-family: 'Roboto', sans-serif;
+  background-color: #041E54;
+  height: 100px;
+}
